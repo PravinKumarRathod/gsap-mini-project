@@ -103,8 +103,8 @@ center #heading h1 {
 img{
     height: 360px;
     position: absolute;
-    top: 16%;
-    left: 38%;
+    top: 15%;
+    left: 41%;
 }
 #imgs :nth-child(1){
     rotate: -2deg;
