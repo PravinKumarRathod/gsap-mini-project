@@ -1,0 +1,138 @@
+@font-face {
+    font-family: nm;
+    src: url(./font/NeueMontreal-Regular.otf);
+}
+@font-face {
+    font-family: rr;
+    src: url(./font/Raleway-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: nm,sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: black;
+    overflow: hidden;
+}
+
+nav{
+    padding: 0px 30px;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 300;
+    align-items: center;
+}
+
+nav #p1{
+    font-size: 15px;
+    cursor: pointer;
+}
+nav #p2{
+    display: flex;
+    gap: 40px;
+}
+nav #p2 h3{
+    font-weight: 100;
+    font-size: 15px;
+    cursor: pointer;
+}
+center {
+    height: 86vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#heading {
+    width: 100%;
+    padding: 0 40px;
+    margin-top: 120px;
+    position: relative;
+    z-index: 20;
+}
+
+center #heading h1 {
+    text-transform: uppercase;
+    font-size:135px;
+    font-weight: 100;
+    line-height: 105px;
+    letter-spacing: -4px;
+    display: block;
+    width: 100%;
+    font-family: rr;
+}
+
+#fhead {
+    text-align: left;
+    
+}
+
+#shead {
+    text-align: center;   
+}
+
+#thead {
+    text-align: center;
+}
+
+#fhead {
+  transform: translateX(15%) translateY(0px) scaleX(1.2) scaleY(1.10);
+}
+
+#shead {
+  transform: translateX(1.5%) translateY(0px) scaleX(1.2) scaleY(1.10);
+}
+
+#thead {
+  transform: translateX(2%) translateY(0px) scaleX(1.10) scaleY(1.10);
+}
+
+img{
+    height: 360px;
+    position: absolute;
+    top: 16%;
+    left: 38%;
+}
+#imgs :nth-child(1){
+    rotate: -2deg;
+    z-index: 10;
+}
+#imgs :nth-child(2){
+    rotate: 6deg;
+    z-index: 6;
+}
+#imgs :nth-child(3){
+    rotate: 13deg;
+    z-index: 3;
+}
+footer{
+    height: 7vh;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    align-items: center;
+}
+footer h3{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 100;
+}
+footer #center{
+    text-align: center;
+    line-height: 13px;
+    transform: translateX(-15%) translateY(-40%);
+}
